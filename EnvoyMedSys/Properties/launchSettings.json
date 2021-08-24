@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "EnvoyMedSys": {
+      "commandName": "Project",
+      "environmentVariables": {
+        // This file is meant to make development easier for those who clone it as
+        // you only have to replace the following variables with your own information.
+        // Be sure to include this launchSettings.json file in your .gitignore file
+        // if you intend to commit it to a remote repository!
+        "MDB_ATLAS_URI": "mongodb+srv://<USERNAME>:<PASSWORD>@<CLUSTER_NAME>.mongodb.net/",
+        "AZURE_TENANT_ID": "<YOUR_AZURE_TENANT_ID>",
+        "AZURE_CLIENT_ID": "<YOUR_AZURE_CLIENT_ID>",
+        "AZURE_CLIENT_SECRET": "<YOUR_AZURE_CLIENT_SECRET>",
+        "AZURE_KEY_NAME": "<YOUR_AZURE_KEY_NAME>",
+        "AZURE_KEYVAULT_ENDPOINT": "https://<YOUR_AZURE_KEYVAULT_NAME>.vault.azure.net"
+      }
+    }
+  }
+}
