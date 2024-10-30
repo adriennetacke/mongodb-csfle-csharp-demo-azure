@@ -1,7 +1,6 @@
 # MongoDB Client-Side Field Level Encryption and Azure Key Vault
 This sample application demonstrates how to integrate Azure Key Vault with MongoDB's Client Side Field Level Encryption in a .NET Core application.
 
-![Workflow diagram of setting up data encryption keys with a key managment system](https://docs.mongodb.com/drivers/figures/CSFLE_Data_Key_KMS.png)
 ## Dependencies
 
 **MongoDB Dependencies**
